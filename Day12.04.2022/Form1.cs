@@ -28,7 +28,6 @@ namespace Day12._04._2022
             for (double x = from; x <= to; x += step)
                 fn.Points.AddXY(x, Calc(x));
             chart1.Series.Add(fn);
-            button1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)

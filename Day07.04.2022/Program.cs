@@ -20,7 +20,12 @@ namespace Day07._04._2022
                     DateTime.Today.AddDays(255)),
                 new("Петрова", "Александра", "Батьковна", "улица дом квартира Петровых",
                     DateTime.Today.AddDays(15)),
-                new("Иван", "Иванович", "Иванов", "улица дом квартира", DateTime.Today.AddDays(25)),
+                new("Иван", "Иванович", "Иванов", "улица дом квартира2", DateTime.Today.AddDays(25)),
+                new("Иванова", "Иванна", "Ивановна", "улица дом квартира3", DateTime.Today.AddDays(5)),
+                new("Gosha", "Dudar", "Petrov", "жд вокзал", DateTime.Today.AddDays(55)),
+                new("Андрей", "Андреевич", "Андреев", "улица дом квартира4", DateTime.Today.AddDays(300)),
+                new("Петров", "Петр", "Петрович", "улица дом квартира5", DateTime.Today.AddDays(42)),
+                new("Сидоров", "Иван", "Георгиевич", "улица дом квартира6", DateTime.Today.AddDays(1)),
             };
 
             Console.WriteLine("Введите данные работников в формате: Фамилия Имя Отчество Адрес Дата найма");

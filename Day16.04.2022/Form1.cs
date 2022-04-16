@@ -24,6 +24,7 @@ namespace Day16._04._2022
         private void timer_Tick(object sender, EventArgs e)
         {
             var timeSpan = endTime - DateTime.Now;
+            label1.Text = $"Today's date time: {DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} WeekDay: {DateTime.Now.DayOfWeek}";
             label2.Text = "Time left: " + timeSpan.ToString(@"dd\:hh\:mm\:ss");
             if (timeSpan.TotalSeconds <= 0)
             {
