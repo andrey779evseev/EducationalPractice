@@ -6,4 +6,9 @@
         <RootNamespace>Day08._04._2022</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Common\Common.csproj" />
+      <ProjectReference Include="..\Day07.04.2022\Day07.04.2022.csproj" />
+    </ItemGroup>
+
 </Project>

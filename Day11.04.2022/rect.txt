@@ -1,0 +1,2 @@
+Count of points inside polygon that aren't intersect between each other and borders: 21
+N:3
